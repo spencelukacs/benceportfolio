@@ -7,7 +7,13 @@ theme = "anatole"
 title = "I'm Jane Doe"
 author = "asdf"
 description = "Call me Jane"
-profilePicture = "images/mitbeamer_adj..jpg"
+profilePicture = "images/avatar.jpg"
+googleFonts = [
+  "Fruktur",
+  "Indie+Flower",
+  "Roboto:ital,wght@0,100;0,400;0,700;1,400"
+]
+customCss = ["css/custom.css"]
 
 [menu]
 
