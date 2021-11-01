@@ -1,0 +1,16 @@
+{
+  "name": "benceportfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio in Hugo",
+  "main": "index.js",
+  "repository": "https://github.com/spencelukacs/benceportfolio.git",
+  "author": "Bence Lukács <bence.lukacs@me.com>",
+  "license": "Creative Commons By 4.0",
+  "private": false,
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo",
+    "deploy": "hugo && firebase deploy",
+    "predeploy": "rm -r ./public/"
+  }
+}
